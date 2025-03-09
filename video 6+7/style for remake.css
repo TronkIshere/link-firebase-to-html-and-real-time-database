@@ -1,0 +1,29 @@
+h1{
+    color: rgb(17, 18, 17);
+}
+.container{
+    margin: 0 30%;
+    text-align: center;
+    background-color: limegreen;
+}
+.container p{
+    font-weight: bold;
+}
+.container span{
+    color: darkblue;
+}
+
+.devices{
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: row;*/
+}
+.devices img{
+    width: 100%;
+}
+.dev { /*flex-item*/
+    border: 1px dashed black;
+    flex: 49%;
+
+}
